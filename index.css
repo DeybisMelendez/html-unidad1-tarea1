@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bar {
+    background-color: #202030;
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color:white;
+}
+
+.button:hover{
+    background-color: white;
+    color:#202030;
+    transition: 0.5s;
+}
+
+.container {
+    padding: 60px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 20px;
+}
